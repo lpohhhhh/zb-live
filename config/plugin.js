@@ -6,4 +6,12 @@ module.exports = {
     enable: true,
     package: 'egg-cors',
   },
+  sequelize:{
+    enable: true,
+    package: 'egg-sequelize',
+  },
+  nunjucks: {
+    enable: true,
+    package: 'egg-view-nunjucks',
+  },
 };
